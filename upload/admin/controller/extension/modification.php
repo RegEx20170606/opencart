@@ -224,7 +224,7 @@ class ControllerExtensionModification extends Controller {
 										}
 
 										$status = false;
-
+										// Regex should work like vQMOD !
 										// Search and replace
 										if ($operation->getElementsByTagName('search')->item(0)->getAttribute('regex') != 'true') {
 											// Search
